@@ -1,0 +1,11 @@
+.primary-button {
+    @apply bg-[#171719] 
+    text-[#f5f4ed] 
+    rounded-[80px] 
+    px-[25px] 
+    py-[12px] 
+    text-[18px] 
+    font-[400] 
+    hover:bg-[#333] 
+    flex items-center;
+}

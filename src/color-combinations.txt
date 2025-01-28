@@ -1,0 +1,9 @@
+--Navbar---
+btn-color - #171719
+btn-color:hover - #333
+orange background - #f47318
+
+
+--Hero Section--
+orange background - #f47318
+text-color - #e0e0d6
