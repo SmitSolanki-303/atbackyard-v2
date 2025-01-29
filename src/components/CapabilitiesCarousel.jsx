@@ -1,13 +1,12 @@
 import React, { useRef } from 'react'
-import { ReactLenis } from 'lenis/react'
+// import { ReactLenis } from 'lenis/react'
 import { Capabilities } from './Capabilities'
 
 const CapabilitiesCards = ({ title, description, image, backgroundColor }) => {
 
     return (
-        
         <section style={{ backgroundColor }} className='w-full'>
-            <div className='flex justify-center py-16'>
+            <div className='flex flex-col md:flex-row justify-center py-16 '>
                 {/* Card Text */}
                 <div className='w-1/2 pr-8'>
                     <h1 className='font-normal text-5xl text-[#e0e0d6] mb-4'>
@@ -31,13 +30,13 @@ const CapabilitiesCards = ({ title, description, image, backgroundColor }) => {
 const CapabilitiesCarousel = () => {
 
     return (
-        <ReactLenis root>
+        // <ReactLenis root>
         <main className='relative'>
             {Capabilities.map((capability, index) => (
                 <CapabilitiesCards key={capability.id} {...capability} />
             ))}
         </main>
-        </ReactLenis>
+        // </ReactLenis>
     )
 }
 

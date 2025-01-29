@@ -4,17 +4,17 @@ import mockupImage from '../assets/mockup.png'
 
 const IntroductionPage = () => {
     return (
-        <div className='bg-[#f47318] min-h-screen px-6 py-16 md:px-12 lg:px-20  '>
+        <div className='bg-[#f47318] min-h-screen px-6 py-16 md:px-12 lg:px-20 overflow-hidden'>
             
-            <h1 className='font-[600] text-[80px] text-[#e0e0d6] leading-22'>
+            <h1 className='font-[600] text-[40px] text-[#e0e0d6] md:text-[80px]'>
                 Hire artists!, not just developers.
                 <br/>
-                <span className='font-[400]'>where your vision meets our <br/> creativity</span>
+                <span className='font-[400] text-[40px] md:text-[80px]'>where your vision meets our <br/> creativity</span>
             </h1>
             
             <div className='h-[40px]'></div>
 
-            <p className='text-[30px] text-[#e0e0d6] w-[75%]'>
+            <p className=' text-[20px] md:text-[40px] text-[#e0e0d6] w-[75%]'>
                 Leveraging the power dynamics of artists' perspectives - we have empowered ourselves with no-code web solutions :)
             </p>
 
